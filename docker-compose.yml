@@ -13,6 +13,7 @@ services:
     ports: 
       - "2456-2458:2456-2458/udp"
       - "9001:9001/tcp"
+      - "9002:9002/tcp"
     env_file:
       - ${SERVER_FILES}/valheim.env
     restart: always
