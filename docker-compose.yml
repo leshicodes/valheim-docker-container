@@ -3,6 +3,8 @@ version: "3"
 services: 
   valheim: 
     image: ghcr.io/lloesche/valheim-server:latest
+    hostname: "valheim-server"
+    container_name: "valheim-server"    
     cap_add:
       - sys_nice
     volumes: 
