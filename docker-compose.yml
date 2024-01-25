@@ -2,7 +2,7 @@ version: "3"
 
 services: 
   valheim: 
-    image: ghcr.io/lloesche/valheim-server:latest
+    image: broizter/valheim-server-docker:latest
     hostname: "valheim-server"
     container_name: "valheim-server"    
     cap_add:
